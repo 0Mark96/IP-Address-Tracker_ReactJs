@@ -1,0 +1,51 @@
+@import '../../../variable';
+
+.search_bar_cont{ 
+    width: 90%;  
+    display: flex;
+    .search_bar{
+        padding: 12px;
+        width: 100%;
+        
+        border-top-left-radius: 13px;
+        border-bottom-left-radius: 13px;
+        font-family: inherit;
+    }
+    .btn_search{
+         height: 100%;
+         padding: 0px 18px;
+         
+         background-color: $veryDarkGray;
+         border-top-right-radius: 13px;
+         border-bottom-right-radius: 13px;
+         &:hover{
+            background-color: $darkGray;
+         }
+    }
+}
+
+@media screen and (min-width:576px){
+    .search_bar_cont{ 
+        width: 70%;
+    }
+}
+@media screen and (min-width:768px){
+    .search_bar_cont{ 
+        width: 60%;
+        .search_bar{
+            padding: 15px;
+        }
+    }
+}
+@media screen and (min-width:992px){
+    .search_bar_cont{ 
+        width: 50%;
+    }
+}
+@media screen and (min-width:1200px){
+    .search_bar_cont{ 
+        width: 40%;
+    }
+}
+@media screen and (min-width:1400px){
+}
