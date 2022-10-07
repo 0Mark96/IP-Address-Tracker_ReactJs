@@ -9,7 +9,7 @@ import { createContext } from "react";
 export const APIdataContext = createContext();
 
 function App() {
-  // fetch data
+  // Fetch data 
   const [query,setQuery] = useState() // insert auto location 
   const {isLoading, isError, error, data}= useQuery(['ipData',query],()=>fetchData(query))
   const handleSubmit = (e,input) => {
