@@ -5,7 +5,7 @@ This is a solution to the [IP address tracker challenge on Frontend Mentor](http
 
 ### Links
 
-- Live Site URL: [https://ipAddress_Tracker.netlify.app]
+- Live Site URL: [https://ipaddresstracker2.netlify.app]
 
 
 ### The challenge
